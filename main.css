@@ -1,13 +1,10 @@
-.bg-primary-red { --tw-bg-opacity: 1; background-color: rgb(0 255 255/var(--tw-bg-opacity)); }
-.border-primary-red { --tw-border-opacity: 1; border-color: rgb(0 255 255/var(--tw-border-opacity)); }
-.text-primary-red { --tw-text-opacity: 1; color: rgb(0 255 255/var(--tw-text-opacity)); }
-.text-primary-red:hover { --tw-text-opacity: 1; color: rgb(0 255 255/var(--tw-text-opacity)); }
-.focus\:border-primary-red:focus { --tw-border-opacity: 1; border-color: rgb(0 255 255/var(--tw-border-opacity)); }
-.focus\:ring-primary-red:focus { --tw-ring-color: rgb(0 255 255/var(--tw-ring-opacity)); --tw-ring-opacity: 1; }
-.shadow-primary-red\/50\:hover { 
-    --tw-shadow-color: rgb(0 255 255/0.5); 
-    --tw-shadow: var(--tw-shadow-colored); 
-    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow); 
-}
-/* This is the hover state for buttons—now a darker Cyan (0 150 150) */
-.bg-red-700:hover { --tw-bg-opacity: 1; background-color: rgb(0 150 150/var(--tw-bg-opacity)); }
+/* BACKGROUNDS (Converting Dark to Light) */
+.bg-black { --tw-bg-opacity: 1; background-color: rgb(255 255 255/var(--tw-bg-opacity)); }
+.bg-dark-bg { --tw-bg-opacity: 1; background-color: rgb(255 255 255/var(--tw-bg-opacity)); }
+.bg-card-bg { --tw-bg-opacity: 1; background-color: rgb(244 244 244/var(--tw-bg-opacity)); }
+
+/* TEXT COLORS (Converting Light Text to Dark Text for Readability) */
+.text-white { --tw-text-opacity: 1; color: rgb(17 24 39/var(--tw-text-opacity)); } 
+.text-white:hover { --tw-text-opacity: 1; color: rgb(17 24 39/var(--tw-text-opacity)); }
+.text-gray-300 { --tw-text-opacity: 1; color: rgb(55 65 81/var(--tw-text-opacity)); }
+.text-gray-400 { --tw-text-opacity: 1; color: rgb(75 85 99/var(--tw-text-opacity)); }
