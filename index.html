@@ -32,8 +32,14 @@
         /* Style for the hero background image */
         .hero-bg {
             /* Kept the dark overlay but changed the default red color classes in CSS to Cyan */
-            background: url('https://placehold.co/1920x800/202020/999999?text=SEMI+SIGHTS+AND+TARGET') center/cover no-repeat;
-            background-blend-mode: multiply;
+            <style>
+    /* ... */
+    .hero-bg {
+        background: url('/images/firearms-training-hero.jpg') center/cover no-repeat; 
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, 0.55);
+    }
+</style>            background-blend-mode: multiply;
             background-color: rgba(0, 0, 0, 0.55);
         }
     </style>
