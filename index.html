@@ -20,24 +20,23 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
-    
-    <link href="/styles/main.css" rel="stylesheet">
-   
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <link href="/styles/main.css" rel="stylesheet"> 
+
     <style>
-    /* Custom scroll-margin for smooth navigation */
-    section {
-        scroll-margin-top: 4rem; /* Compensate for the fixed header height */
-    }
-    /* Style for the hero background image */
-    .hero-bg {
-        /* REMINDER: Insert your actual image URL here! */
-        background: url('/images/firearms-training-hero.jpg') center/cover no-repeat;
-        background-blend-mode: multiply;
-        background-color: rgba(0, 0, 0, 0.55);
-    }
-</style>
-    
+        /* Custom scroll-margin for smooth navigation */
+        section {
+            scroll-margin-top: 4rem; /* Compensate for the fixed header height */
+        }
+        /* Style for the hero background image */
+        .hero-bg {
+            /* REMINDER: Insert your actual image URL here! */
+            background: url('/images/firearms-training-hero.jpg') center/cover no-repeat;
+            background-blend-mode: multiply;
+            background-color: rgba(0, 0, 0, 0.55);
+        }
+    </style>
 </head>
 <body class="bg-dark-bg text-white font-sans antialiased">
     <header class="bg-dark-bg shadow-lg sticky top-0 z-50"> 
@@ -59,7 +58,7 @@
             </div>
         </div>
 
-        <div id="mobile-nav" class="hidden sm:hidden bg-dark-bg border-t border-gray-300">       
+        <div id="mobile-nav" class="hidden sm:hidden bg-dark-bg border-t border-gray-300">      
             <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col space-y-2">
                 <a href="#home" class="text-white hover:text-primary-red">Home</a>
                 <a href="#about" class="text-white hover:text-primary-red">About</a>
@@ -249,7 +248,7 @@
         </div>
         </main>
 
-    <footer class="bg-dark-bg py-10 border-t border-gray-700">
+    <footer class="bg-dark-bg py-10 border-t border-gray-300">
         <div class="max-w-4xl mx-auto px-4 text-center text-gray-300">
             <h3 class="text-2xl font-bold text-white mb-3">
                 Loaded & Locked In Training Academy LLC
